@@ -1,0 +1,9 @@
+branch_id,branch_code,branch_name,city,country,region,head_advisor,opened_year
+1,B-MUM-01,Mumbai - Bandra Kurla Complex (BKC),Mumbai,India,APAC,Vikram Malhotra,2008
+2,B-MUM-02,Mumbai - Nariman Point,Mumbai,India,APAC,Pooja Singhania,2012
+3,B-BLR-01,Bengaluru - Outer Ring Road,Bengaluru,India,APAC,Rohan Deshmukh,2015
+4,B-NYC-01,New York - Park Avenue Private Wealth,New York,USA,Americas,Eleanor Vance,1998
+5,B-NYC-02,New York - Broadway Center,New York,USA,Americas,Marcus Sterling,2004
+6,B-LON-01,London - Canary Wharf,London,UK,EMEA,Alistair Campbell,2001
+7,B-SGP-01,Singapore - Marina Bay Financial Centre,Singapore,Singapore,APAC,Serene Lim,2010
+8,B-HKG-01,Hong Kong - Two IFC Central,Hong Kong,Hong Kong,APAC,David Wong,2006

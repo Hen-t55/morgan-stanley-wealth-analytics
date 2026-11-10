@@ -1,0 +1,6 @@
+type_id,type_name,category,min_balance,interest_rate
+ACC_CHK,Private Wealth Checking,Transactional,5000.0,0.005
+ACC_SAV,High-Yield Wealth Savings,Deposit,25000.0,0.042
+ACC_BRK,Brokerage & Equity Portfolio,Investment,50000.0,0.0
+ACC_TRS,Trust & Estate Preservation,Fiduciary,200000.0,0.025
+ACC_RET,Retirement & IRA Account,Retirement,10000.0,0.038

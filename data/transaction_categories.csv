@@ -1,0 +1,7 @@
+category_id,category_name,flow_type,is_fee,description
+CAT_DEP,Wire / Capital Inflow,Credit,False,Client deposit or external wire transfer inflow
+CAT_WTH,Withdrawal / Capital Outflow,Debit,False,Cash withdrawal or outgoing wire transfer
+CAT_TRD,Securities Trade (Equity/Bonds),Variable,False,Purchase or sale of market securities
+CAT_DIV,Dividend & Yield Credit,Credit,False,Passive income and coupon payments
+CAT_FEE,Advisory & Custody Fee,Debit,True,Quarterly management and custodial charge
+CAT_TRF,Internal Portfolio Rebalance,Transfer,False,Transfer between linked customer accounts
