@@ -5,8 +5,8 @@ import streamlit as st
 import altair as alt
 
 st.set_page_config(
-    page_title="Morgan Stanley | Wealth Management Analytics",
-    page_icon="🏦",
+    page_title="Global Wealth Management | Transaction & Portfolio Intelligence",
+    page_icon="🏛️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -43,8 +43,8 @@ except Exception as e:
 # -------------------------------------------------------------
 # SIDEBAR
 # -------------------------------------------------------------
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/3/34/Morgan_Stanley_Logo_1.svg", width=220)
-st.sidebar.markdown("### **Wealth Management Analytics**")
+st.sidebar.markdown("# 🏛️ **Apex Wealth**")
+st.sidebar.markdown("### **Portfolio Analytics**")
 st.sidebar.markdown("*Institutional Portfolio & Transaction Intelligence*")
 st.sidebar.divider()
 
@@ -59,8 +59,8 @@ filtered_txns = txn_merged[
 # -------------------------------------------------------------
 # HEADER & KPI BARS
 # -------------------------------------------------------------
-st.title("🏦 Morgan Stanley Wealth Management — Intelligence Desk")
-st.caption("2027 Wealth Management Analyst Portal | Live SQL Data Model & BI Surveillance Engine")
+st.title("🏛️ Global Wealth Management — Intelligence Desk")
+st.caption("Private Wealth Management & Transaction Analytics Portal | Live SQL Data Model & BI Surveillance Engine")
 
 # KPI Calculations
 total_aum = accounts["current_balance"].sum()
@@ -328,4 +328,4 @@ WHERE (t.amount BETWEEN 9000.00 AND 9999.99 AND tc.category_id = 'CAT_DEP')
         """, language="sql")
 
 st.markdown("---")
-st.caption("Built for Morgan Stanley Wealth Management 2027 Apprenticeship Program | Home Office Mumbai")
+st.caption("Global Wealth Management & Transaction Intelligence System | Enterprise Portfolio & Analytics Portal")

@@ -61,7 +61,7 @@ def run_stored_procedures(cursor, filepath):
 
 def main():
     print("=" * 70)
-    print("Morgan Stanley Wealth Management - MySQL Database Loader")
+    print("Global Wealth Management - MySQL Database Loader")
     print("=" * 70)
 
     host = input("Enter MySQL Host [default: localhost]: ").strip() or "localhost"
@@ -84,9 +84,9 @@ def main():
         sys.exit(1)
 
     # 1. Ensure target database exists and select it
-    print(" Initializing database `morgan_stanley_wm`...")
-    cursor.execute("CREATE DATABASE IF NOT EXISTS morgan_stanley_wm;")
-    cursor.execute("USE morgan_stanley_wm;")
+    print(" Initializing database `wealth_management_db`...")
+    cursor.execute("CREATE DATABASE IF NOT EXISTS wealth_management_db;")
+    cursor.execute("USE wealth_management_db;")
     conn.commit()
 
     # 2. Execute DDL Schema (Tables, Constraints, Indexes)
@@ -139,7 +139,7 @@ def main():
     conn.close()
 
     print("\n" + "=" * 70)
-    print(" SUCCESS: Database `morgan_stanley_wm` is fully provisioned & loaded!")
+    print(" SUCCESS: Database `wealth_management_db` is fully provisioned & loaded!")
     print(" You can now run queries in MySQL Workbench or connect Power BI Desktop.")
     print("=" * 70 + "\n")
 

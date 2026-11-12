@@ -1,11 +1,10 @@
 -- ====================================================================================================
--- PROJECT: Banking Transaction & Customer Wealth Analytics
--- TARGET INSTITUTION: Morgan Stanley (Wealth Management Division)
+-- PROJECT: Wealth Management & Banking Transaction Intelligence System
 -- MODULE: 03_stored_procedures.sql
 -- DESCRIPTION: Production Stored Procedures Demonstrating Transactions, Control Flow & Error Handling
 -- ====================================================================================================
 
-USE morgan_stanley_wm;
+USE wealth_management_db;
 
 DELIMITER $$
 

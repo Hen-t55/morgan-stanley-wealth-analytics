@@ -56,7 +56,7 @@ for _, branch in df_branches.iterrows():
             "advisor_code": f"ADV-{advisor_id:04d}",
             "first_name": fake.first_name(),
             "last_name": fake.last_name(),
-            "email": f"advisor.{advisor_id}@morganstanley.internal",
+            "email": f"advisor.{advisor_id}@wealthmgmt.internal",
             "phone": fake.phone_number(),
             "branch_id": branch["branch_id"],
             "title": title,

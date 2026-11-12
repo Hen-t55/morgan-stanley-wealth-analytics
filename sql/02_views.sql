@@ -1,11 +1,10 @@
 -- ====================================================================================================
--- PROJECT: Banking Transaction & Customer Wealth Analytics
--- TARGET INSTITUTION: Morgan Stanley (Wealth Management Division)
+-- PROJECT: Wealth Management & Banking Transaction Intelligence System
 -- MODULE: 02_views.sql
 -- DESCRIPTION: Analytical & Reporting Views for Business Intelligence & Power BI Integration
 -- ====================================================================================================
 
-USE morgan_stanley_wm;
+USE wealth_management_db;
 
 -- ----------------------------------------------------------------------------------------------------
 -- VIEW 1: Customer 360 & Wealth Portfolio Aggregation
@@ -47,7 +46,7 @@ GROUP BY
 
 -- ----------------------------------------------------------------------------------------------------
 -- VIEW 2: Monthly Wealth Flow Trends & Net New Money (NNM)
--- Essential for Morgan Stanley quarterly metrics reporting on client asset movements.
+-- Essential for executive quarterly metrics reporting on client asset movements.
 -- ----------------------------------------------------------------------------------------------------
 DROP VIEW IF EXISTS v_monthly_wealth_flows;
 

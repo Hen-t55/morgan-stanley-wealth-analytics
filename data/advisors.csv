@@ -1,28 +1,28 @@
 advisor_id,advisor_code,first_name,last_name,email,phone,branch_id,title,target_aum,hire_date,status
-1,ADV-0001,Danielle,Johnson,advisor.1@morganstanley.internal,533-521-8196x001,1,Associate Advisor,24228452,2025-06-15,Active
-2,ADV-0002,Carolyn,Hoffman,advisor.2@morganstanley.internal,001-486-537-9402x654,1,Senior Vice President,141629388,2022-08-01,Active
-3,ADV-0003,Curtis,James,advisor.3@morganstanley.internal,(759)540-7816x184,1,Associate Advisor,22336273,2018-01-15,Active
-4,ADV-0004,Brandon,Perez,advisor.4@morganstanley.internal,313-416-4752x5534,2,Vice President - Wealth,68153498,2021-01-08,Active
-5,ADV-0005,Frank,Gray,advisor.5@morganstanley.internal,+1-783-550-3056x4139,2,Vice President - Wealth,50714555,2025-05-08,Active
-6,ADV-0006,Randall,Rocha,advisor.6@morganstanley.internal,724.523.8849x696,2,Vice President - Wealth,62588477,2019-03-18,Active
-7,ADV-0007,William,Davis,advisor.7@morganstanley.internal,9126269166,3,Associate Advisor,26541238,2017-01-19,Active
-8,ADV-0008,Erin,Wilson,advisor.8@morganstanley.internal,+1-645-414-6270,3,Vice President - Wealth,65403012,2025-06-29,Active
-9,ADV-0009,Rita,Harrell,advisor.9@morganstanley.internal,289-332-5288x0957,3,Vice President - Wealth,78745446,2023-01-12,Active
-10,ADV-0010,Natasha,Decker,advisor.10@morganstanley.internal,430-639-1171x8227,3,Associate Advisor,22646997,2025-10-31,Active
-11,ADV-0011,Monique,Henderson,advisor.11@morganstanley.internal,383.546.5787,4,Senior Vice President,145855700,2020-09-05,Active
-12,ADV-0012,Caleb,Smith,advisor.12@morganstanley.internal,+1-239-730-1031,4,Senior Vice President,132683626,2018-01-23,Active
-13,ADV-0013,Willie,Ramirez,advisor.13@morganstanley.internal,838.729.9737x6311,4,Senior Vice President,156691040,2024-01-24,Active
-14,ADV-0014,Robert,Shields,advisor.14@morganstanley.internal,9104651333,5,Associate Advisor,27732411,2024-01-13,Active
-15,ADV-0015,Isaiah,Ford,advisor.15@morganstanley.internal,478-810-8013,5,Senior Vice President,89308421,2025-02-12,Active
-16,ADV-0016,Timothy,Hancock,advisor.16@morganstanley.internal,9264064746,5,Vice President - Wealth,44441842,2020-02-01,Active
-17,ADV-0017,Kenneth,Novak,advisor.17@morganstanley.internal,001-480-250-0978,6,Associate Advisor,31751421,2025-06-30,Active
-18,ADV-0018,Christopher,Lopez,advisor.18@morganstanley.internal,+1-813-761-9399x091,6,Vice President - Wealth,77672777,2021-04-17,Active
-19,ADV-0019,James,Moran,advisor.19@morganstanley.internal,946.324.7510,6,Senior Vice President,138606628,2018-02-07,Active
-20,ADV-0020,Amanda,Wagner,advisor.20@morganstanley.internal,(651)235-4278,6,Associate Advisor,19641643,2021-12-13,Active
-21,ADV-0021,Sarah,Garcia,advisor.21@morganstanley.internal,(541)718-2449,7,Senior Vice President,141661351,2020-04-27,Active
-22,ADV-0022,Grace,Farrell,advisor.22@morganstanley.internal,874.201.6400x52427,7,Associate Advisor,27805018,2018-10-05,Active
-23,ADV-0023,Charles,Ware,advisor.23@morganstanley.internal,(280)659-8262,7,Vice President - Wealth,40770478,2023-01-22,Active
-24,ADV-0024,Rachel,Flynn,advisor.24@morganstanley.internal,4535315869,8,Senior Vice President,124392920,2019-08-15,Active
-25,ADV-0025,Theresa,Cochran,advisor.25@morganstanley.internal,(902)756-3421x60733,8,Associate Advisor,15108894,2022-01-18,Active
-26,ADV-0026,Lori,Savage,advisor.26@morganstanley.internal,803.765.4145,8,Associate Advisor,18570554,2017-04-29,Active
-27,ADV-0027,Darrell,Waller,advisor.27@morganstanley.internal,(894)301-9655,8,Associate Advisor,27546466,2023-05-30,Active
+1,ADV-0001,Danielle,Johnson,advisor.1@wealthmgmt.internal,533-521-8196x001,1,Associate Advisor,24228452,2025-06-17,Active
+2,ADV-0002,Carolyn,Hoffman,advisor.2@wealthmgmt.internal,001-486-537-9402x654,1,Senior Vice President,141629388,2022-08-03,Active
+3,ADV-0003,Curtis,James,advisor.3@wealthmgmt.internal,(759)540-7816x184,1,Associate Advisor,22336273,2018-01-17,Active
+4,ADV-0004,Brandon,Perez,advisor.4@wealthmgmt.internal,313-416-4752x5534,2,Vice President - Wealth,68153498,2021-01-10,Active
+5,ADV-0005,Frank,Gray,advisor.5@wealthmgmt.internal,+1-783-550-3056x4139,2,Vice President - Wealth,50714555,2025-05-10,Active
+6,ADV-0006,Randall,Rocha,advisor.6@wealthmgmt.internal,724.523.8849x696,2,Vice President - Wealth,62588477,2019-03-20,Active
+7,ADV-0007,William,Davis,advisor.7@wealthmgmt.internal,9126269166,3,Associate Advisor,26541238,2017-01-21,Active
+8,ADV-0008,Erin,Wilson,advisor.8@wealthmgmt.internal,+1-645-414-6270,3,Vice President - Wealth,65403012,2025-07-01,Active
+9,ADV-0009,Rita,Harrell,advisor.9@wealthmgmt.internal,289-332-5288x0957,3,Vice President - Wealth,78745446,2023-01-14,Active
+10,ADV-0010,Natasha,Decker,advisor.10@wealthmgmt.internal,430-639-1171x8227,3,Associate Advisor,22646997,2025-11-02,Active
+11,ADV-0011,Monique,Henderson,advisor.11@wealthmgmt.internal,383.546.5787,4,Senior Vice President,145855700,2020-09-07,Active
+12,ADV-0012,Caleb,Smith,advisor.12@wealthmgmt.internal,+1-239-730-1031,4,Senior Vice President,132683626,2018-01-25,Active
+13,ADV-0013,Willie,Ramirez,advisor.13@wealthmgmt.internal,838.729.9737x6311,4,Senior Vice President,156691040,2024-01-26,Active
+14,ADV-0014,Robert,Shields,advisor.14@wealthmgmt.internal,9104651333,5,Associate Advisor,27732411,2024-01-15,Active
+15,ADV-0015,Isaiah,Ford,advisor.15@wealthmgmt.internal,478-810-8013,5,Senior Vice President,89308421,2025-02-14,Active
+16,ADV-0016,Timothy,Hancock,advisor.16@wealthmgmt.internal,9264064746,5,Vice President - Wealth,44441842,2020-02-03,Active
+17,ADV-0017,Kenneth,Novak,advisor.17@wealthmgmt.internal,001-480-250-0978,6,Associate Advisor,31751421,2025-07-02,Active
+18,ADV-0018,Christopher,Lopez,advisor.18@wealthmgmt.internal,+1-813-761-9399x091,6,Vice President - Wealth,77672777,2021-04-19,Active
+19,ADV-0019,James,Moran,advisor.19@wealthmgmt.internal,946.324.7510,6,Senior Vice President,138606628,2018-02-09,Active
+20,ADV-0020,Amanda,Wagner,advisor.20@wealthmgmt.internal,(651)235-4278,6,Associate Advisor,19641643,2021-12-15,Active
+21,ADV-0021,Sarah,Garcia,advisor.21@wealthmgmt.internal,(541)718-2449,7,Senior Vice President,141661351,2020-04-29,Active
+22,ADV-0022,Grace,Farrell,advisor.22@wealthmgmt.internal,874.201.6400x52427,7,Associate Advisor,27805018,2018-10-07,Active
+23,ADV-0023,Charles,Ware,advisor.23@wealthmgmt.internal,(280)659-8262,7,Vice President - Wealth,40770478,2023-01-24,Active
+24,ADV-0024,Rachel,Flynn,advisor.24@wealthmgmt.internal,4535315869,8,Senior Vice President,124392920,2019-08-17,Active
+25,ADV-0025,Theresa,Cochran,advisor.25@wealthmgmt.internal,(902)756-3421x60733,8,Associate Advisor,15108894,2022-01-20,Active
+26,ADV-0026,Lori,Savage,advisor.26@wealthmgmt.internal,803.765.4145,8,Associate Advisor,18570554,2017-05-01,Active
+27,ADV-0027,Darrell,Waller,advisor.27@wealthmgmt.internal,(894)301-9655,8,Associate Advisor,27546466,2023-06-01,Active

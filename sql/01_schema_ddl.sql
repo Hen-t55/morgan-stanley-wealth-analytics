@@ -1,12 +1,11 @@
 -- ====================================================================================================
--- PROJECT: Banking Transaction & Customer Wealth Analytics
--- TARGET INSTITUTION: Morgan Stanley (Wealth Management Division)
+-- PROJECT: Wealth Management & Banking Transaction Intelligence System
 -- MODULE: 01_schema_ddl.sql
 -- DESCRIPTION: Relational Database Schema DDL with Integrity Constraints, Foreign Keys & Indexes
 -- ====================================================================================================
 
-CREATE DATABASE IF NOT EXISTS morgan_stanley_wm;
-USE morgan_stanley_wm;
+CREATE DATABASE IF NOT EXISTS wealth_management_db;
+USE wealth_management_db;
 
 -- Drop dependent tables in reverse FK dependency order
 DROP TABLE IF EXISTS transactions;

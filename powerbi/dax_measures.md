@@ -1,5 +1,5 @@
 # Power BI DAX Measures Library
-### Project: Morgan Stanley Wealth Management & Transaction Intelligence
+### Project: Wealth Management & Banking Transaction Intelligence
 
 This document contains production-grade DAX measures formatted and ready to copy-paste into Power BI Desktop.
 
@@ -34,7 +34,7 @@ CALCULATE(
 ```
 
 ### Net New Money (NNM / Net Inflows)
-*Morgan Stanley's primary organic growth metric reported on earnings calls.*
+*The primary organic growth metric reported on wealth management earnings calls.*
 ```dax
 Net New Money = 
 [Total Inflow] - [Total Outflow]

@@ -1,6 +1,6 @@
-# Morgan Stanley Wealth Management — Resume & Interview Preparation Guide
+# Wealth Management & Financial Analytics — Resume & Interview Guide
 
-This guide equips you to present this project during the application and interview rounds for the **2027 Wealth Management - Apprenticeship Program 1 (Mumbai)** at Morgan Stanley.
+This guide equips you to present this project during applications and technical interview rounds for **Data Analyst, Wealth Management Analyst, and Business Intelligence roles** across top-tier financial institutions.
 
 ---
 
@@ -8,7 +8,7 @@ This guide equips you to present this project during the application and intervi
 
 ### Option A: Standard 4-Bullet Format (Recommended for Tech & Analyst Resumes)
 ```text
-Banking Transaction & Customer Wealth Analytics | SQL, MySQL, Python, Power BI
+Banking Transaction & Customer Wealth Analytics | SQL, MySQL, Python, Power BI, Streamlit
 • Engineered a normalized relational database in MySQL with 7 interconnected entities (Branches, Advisors, Customers, Accounts, Transactions) managing $1.4B+ in simulated Assets Under Management (AUM).
 • Developed advanced SQL queries utilizing Common Table Expressions (CTEs), multi-table joins, and window functions (DENSE_RANK, LAG, rolling averages) to track Net New Money (NNM), client churn risk, and regional branch liquidity.
 • Built stored procedures and views for automated Anti-Money Laundering (AML) surveillance, detecting outlier spikes (>4x historical average) and regulatory structuring patterns ($9k–$10k threshold).
@@ -19,23 +19,23 @@ Banking Transaction & Customer Wealth Analytics | SQL, MySQL, Python, Power BI
 ### Option B: Concise 3-Bullet Format (If Space-Constrained)
 ```text
 Wealth Management & Banking Transaction Analytics | SQL (MySQL), Power BI, Python
-• Designed a production-grade relational database and automated Python ETL pipeline simulating 1,000 wealth clients, 2,400+ accounts, and 26,000+ transactions spanning global hubs (Mumbai BKC, NY, London).
+• Designed a production-grade relational database and automated Python ETL pipeline simulating 1,000 wealth clients, 2,400+ accounts, and 26,000+ transactions spanning global financial hubs.
 • Authored complex SQL suites employing CTEs, window functions (LAG, SUM OVER), and stored procedures to calculate AUM trends, Net New Money, customer dormancy risk, and AML fraud anomalies.
 • Connected MySQL to Power BI via Star Schema dimensional modeling, authoring custom DAX measures for executive reporting on advisor quota attainment, wealth tier migrations, and channel adoption.
 ```
 
 ---
 
-## 2. Direct Alignment with Morgan Stanley JD Requirements
+## 2. Core Competency Alignment for Financial Analytics Roles
 
-| Morgan Stanley JD Requirement | How This Project Directly Proves It |
+| Financial Analyst & Data Engineering Competency | How This Project Directly Demonstrates It |
 | :--- | :--- |
-| **"Strong knowledge of databases and SQL"** | DDL schema with primary/foreign keys, check constraints, composite indexing (`idx_txn_account_time`), CTEs, window functions, and ACID-compliant stored procedures. |
-| **"Ad-hoc data queries & metrics reporting"** | 10 dedicated business SQL scripts addressing executive queries, AUM calculations, Net New Money (NNM), and advisor book-of-business metrics. |
-| **"Working knowledge of Python for automation and data processing"** | End-to-end automated Python data generation and batch database loading script (`generate_data.py` and `load_to_mysql.py`). |
-| **"Familiarity with Power BI"** | 4-page executive interactive dashboard with dimensional star schema, time intelligence, and custom DAX calculations. |
-| **"Help identify critical user journeys, use cases, workflows"** | Modeled the complete client lifecycle: onboarding $\to$ risk profiling $\to$ advisor assignment $\to$ multi-asset transactions $\to$ statement generation $\to$ churn detection. |
-| **"Collaborate with stakeholders to answer business questions"** | Query results are framed around decision-making: fee profitability, advisor rebalancing, and client tier upgrades. |
+| **Relational Database Design & Production SQL** | DDL schema with primary/foreign keys, check constraints, composite indexing (`idx_txn_account_time`), CTEs, window functions, and ACID-compliant stored procedures. |
+| **Ad-Hoc Querying & Metrics Reporting** | 10 dedicated business SQL scripts addressing executive queries, AUM calculations, Net New Money (NNM), and advisor book-of-business metrics. |
+| **Python for ETL & Data Engineering** | End-to-end automated Python data generation and batch database loading script (`generate_data.py` and `load_to_mysql.py`). |
+| **Business Intelligence & Executive Dashboards** | 4-page executive interactive dashboard with dimensional star schema, time intelligence, custom DAX calculations, and Streamlit interactive web portal. |
+| **Financial Domain Modeling & Business Processes** | Modeled the complete client lifecycle: onboarding $\to$ risk profiling $\to$ advisor assignment $\to$ multi-asset transactions $\to$ statement generation $\to$ churn detection. |
+| **Stakeholder Collaboration & Commercial Acumen** | Query results are framed around strategic decision-making: fee profitability, advisor rebalancing, and client tier upgrades. |
 
 ---
 
@@ -43,7 +43,7 @@ Wealth Management & Banking Transaction Analytics | SQL (MySQL), Power BI, Pytho
 
 ### Q1: "Why did you build a Wealth Management-focused database rather than a standard retail banking project?"
 > **Model Answer:**  
-> *"When researching Morgan Stanley's Wealth Management division, I noticed the core mission is helping clients build, preserve, and manage wealth. Standard retail banking focuses merely on ATM withdrawals and checking balances. I wanted my project to reflect real Wall Street operations. I modeled wealth tiers from Mass Affluent to Ultra-HNW, multi-asset portfolios (brokerages, trusts, IRAs), Financial Advisors with quota targets, and key industry metrics like Assets Under Management (AUM) and Net New Money (NNM). This allowed me to write SQL that answers strategic business questions rather than just basic data retrieval."*
+> *"In institutional finance, the primary business value lies in helping clients build, preserve, and manage capital. Standard retail banking projects typically focus merely on ATM withdrawals and basic checking balances. I wanted my project to reflect real institutional wealth operations. I modeled wealth tiers from Mass Affluent to Ultra-HNW, multi-asset portfolios (brokerages, trusts, IRAs), Financial Advisors with quota targets, and key industry metrics like Assets Under Management (AUM) and Net New Money (NNM). This allowed me to write SQL that answers strategic business questions rather than just basic data retrieval."*
 
 ---
 

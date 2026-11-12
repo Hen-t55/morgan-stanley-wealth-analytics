@@ -1,7 +1,7 @@
 # Power BI Dashboard Implementation Guide
-### Project: Morgan Stanley Wealth Management & Transaction Intelligence
+### Project: Wealth Management & Banking Transaction Intelligence
 
-This guide walks you through building an enterprise-grade, 4-page Power BI dashboard modeled after Morgan Stanley Home Office reporting standards.
+This guide walks you through building an enterprise-grade, 4-page Power BI dashboard modeled after institutional private banking reporting standards.
 
 ---
 
@@ -13,7 +13,7 @@ You can load the dataset into Power BI Desktop using either of two methods:
 1. Open **Power BI Desktop**.
 2. Click **Get Data** $\to$ Select **MySQL database** $\to$ Click **Connect**.
 3. In Server, enter: `localhost:3306`
-4. In Database, enter: `morgan_stanley_wm`
+4. In Database, enter: `wealth_management_db`
 5. Select **Import** Mode (best for DAX calculations and offline responsiveness).
 6. Under Database credentials, enter your MySQL user (`root`) and password.
 7. Select all tables (`branches`, `advisors`, `account_types`, `transaction_categories`, `customers`, `accounts`, `transactions`) and click **Load**.
@@ -63,11 +63,11 @@ RETURN
 
 ---
 
-## 3. Morgan Stanley Corporate Color Palette
+## 3. Institutional Banking Color Palette
 
-Use this color theme for a Wall Street aesthetic:
+Use this color theme for an executive private wealth aesthetic:
 - **Primary Deep Navy:** `#002B49` (Headers, KPI background, primary bars)
-- **Morgan Stanley Blue / Accent:** `#0072CE` or `#00A3E0` (Active trends, lines)
+- **Financial Blue / Accent:** `#0072CE` or `#00A3E0` (Active trends, lines)
 - **Wealth Gold:** `#C59B27` (HNW / UHNW highlights)
 - **Positive / Inflow Green:** `#00875A`
 - **Negative / Outflow Red:** `#DE350B`

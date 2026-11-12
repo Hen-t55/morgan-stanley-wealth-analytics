@@ -1,11 +1,10 @@
 -- ====================================================================================================
--- PROJECT: Banking Transaction & Customer Wealth Analytics
--- TARGET INSTITUTION: Morgan Stanley (Wealth Management Division)
+-- PROJECT: Wealth Management & Banking Transaction Intelligence System
 -- MODULE: 04_business_queries.sql
 -- DESCRIPTION: Business Intelligence Query Suite using Advanced Joins, CTEs & Window Functions
 -- ====================================================================================================
 
-USE morgan_stanley_wm;
+USE wealth_management_db;
 
 -- ====================================================================================================
 -- QUESTION 1: Who are the top 10 customers by total transaction volume?
@@ -138,7 +137,7 @@ ORDER BY c.wealth_tier, avg_transaction_value DESC;
 -- ====================================================================================================
 -- QUESTION 5: Which customers have declining activity (Dormancy / Churn Early-Warning System)?
 -- CONCEPTS: CTEs, Subqueries, Date Arithmetic, Window Functions, Filtered Conditional Aggregation
--- BUSINESS VALUE: Proactively detects at-risk relationships before they liquidate and leave Morgan Stanley.
+-- BUSINESS VALUE: Proactively detects at-risk relationships before they liquidate and leave the institution.
 -- ====================================================================================================
 WITH period_activity AS (
     SELECT 
@@ -254,7 +253,7 @@ LIMIT 25;
 -- ====================================================================================================
 -- QUESTION 7 (WEALTH SPECIFIC): Net New Money (NNM) & Inflow/Outflow ratio across branches
 -- CONCEPTS: CASE WHEN Aggregation, Division by Zero protection (NULLIF), Star schema JOINs
--- BUSINESS VALUE: Net New Money is Morgan Stanley's primary organic growth metric reported on earnings calls.
+-- BUSINESS VALUE: Net New Money is the primary organic growth metric reported in institutional wealth earnings.
 -- ====================================================================================================
 SELECT 
     b.branch_name,

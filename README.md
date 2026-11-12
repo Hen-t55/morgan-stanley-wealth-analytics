@@ -1,17 +1,17 @@
-# Morgan Stanley Wealth Management — Banking Transaction & Customer Analytics
+# Wealth Management & Banking Transaction Intelligence System
 
 [![Database: MySQL 8.0](https://img.shields.io/badge/Database-MySQL%208.0-blue.svg)](https://www.mysql.com/)
 [![BI Tool: Power BI](https://img.shields.io/badge/BI%20Tool-Microsoft%20Power%20BI-yellow.svg)](https://powerbi.microsoft.com/)
 [![Language: Python 3.13](https://img.shields.io/badge/Language-Python%203.13-green.svg)](https://www.python.org/)
-[![Target: Morgan Stanley Wealth Management](https://img.shields.io/badge/Target-Morgan%20Stanley%20WM-navy.svg)](#)
+[![Domain: Wealth Management](https://img.shields.io/badge/Domain-Private%20Wealth%20%26%20Banking-navy.svg)](#)
 
-An enterprise-grade analytical system modeling **Wealth Management, Client Portfolio Liquidity, and Banking Transactions**, engineered specifically to demonstrate technical proficiency in **Advanced SQL**, **Database Engineering**, **Python ETL Automation**, and **Power BI Data Modeling**.
+An enterprise-grade analytical system modeling **Private Wealth Management, Client Portfolio Liquidity, and Banking Transactions**, engineered to demonstrate technical proficiency in **Advanced SQL**, **Relational Database Engineering**, **Python ETL Automation**, and **Power BI / Streamlit Data Modeling**.
 
 ---
 
 ## 1. Project Overview & Architecture
 
-Designed around the operating model of **Morgan Stanley Wealth Management (Home Office)**, this project captures the end-to-end client journey: from high-net-worth customer segmentation and relationship manager assignments to multi-asset account portfolios and transaction processing.
+Designed around the operating model of **Global Private Wealth & Asset Management institutions**, this project captures the end-to-end client journey: from high-net-worth customer segmentation and relationship manager assignments to multi-asset account portfolios, transaction processing, and AML risk compliance.
 
 ```mermaid
 flowchart TD
@@ -45,7 +45,7 @@ flowchart TD
 
 ## 2. Relational Database Schema (ERD)
 
-The database schema (`morgan_stanley_wm`) enforces full referential integrity across 7 normalized entities:
+The database schema (`wealth_management_db`) enforces full referential integrity across 7 normalized entities:
 
 ```mermaid
 erDiagram
@@ -232,10 +232,11 @@ analyser/
 │   ├── 02_views.sql                    # Analytical Views (Client 360, Monthly Flows, Watchlist)
 │   ├── 03_stored_procedures.sql        # Stored Procedures (Statements, Anomaly Engine, Rebalance)
 │   └── 04_business_queries.sql         # 10 Complex Business & Wealth Management Queries
+├── app.py                          # Interactive Streamlit Web Portal & BI Engine
 ├── powerbi/
 │   ├── dax_measures.md                 # Complete DAX Measure Calculation Library
 │   └── dashboard_design_guide.md       # Visual Layout, Color Palette & Star Schema Guide
-├── RESUME_AND_INTERVIEW_PREP.md        # Tailored Resume Bullets & Morgan Stanley Interview Q&A
+├── RESUME_AND_INTERVIEW_PREP.md        # Professional Resume Bullets & Technical Q&A Guide
 └── README.md                           # Master Project Documentation
 ```
 
@@ -263,7 +264,7 @@ python scripts/load_to_mysql.py
 
 ### Step 3: Launch Power BI Dashboard
 1. Open **Power BI Desktop**.
-2. Connect to MySQL database `morgan_stanley_wm` (or import CSVs from `data/`).
+2. Connect to MySQL database `wealth_management_db` (or import CSVs from `data/`).
 3. Follow `powerbi/dashboard_design_guide.md` to format the visuals and copy measures from `powerbi/dax_measures.md`.
 
 ---
